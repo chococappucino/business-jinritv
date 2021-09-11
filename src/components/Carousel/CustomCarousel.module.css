@@ -1,0 +1,17 @@
+.Quote {
+  font-size: 51px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.Name {
+  font-weight: bold;
+}
+
+.TextAlignCenter {
+  text-align: center;
+}
+
+.TextCarousel {
+  height: 500px;
+}

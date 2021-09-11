@@ -1,0 +1,21 @@
+.ImageBg {
+  padding: 10px;
+  margin: 0px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  text-align: center;
+}
+
+.Title {
+  font-size: 51px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.Subtitle {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1.4em;
+}
+
+.Description {
+}

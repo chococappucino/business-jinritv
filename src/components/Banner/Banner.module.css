@@ -1,0 +1,28 @@
+.Banner {
+  background-image: url('../../assets/images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+}
+
+.TextPosition {
+  position: relative;
+  left: 100px;
+  top: 150px;
+  width: 600px;
+}
+
+.TitleText {
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  text-shadow: 3px 3px gainsboro;
+}
+
+.DescriptionText {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px gainsboro;
+}

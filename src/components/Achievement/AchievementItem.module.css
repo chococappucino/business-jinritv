@@ -1,0 +1,16 @@
+.AchievementItem {
+  padding: 0;
+  margin: 0;
+}
+
+.ValueText {
+  font-size: 9em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.DescriptionText {
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+}
