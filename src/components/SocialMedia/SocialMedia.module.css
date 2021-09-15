@@ -1,0 +1,10 @@
+.SocialMedia {
+  background: url('../../assets/images/socialmedia-bg.png') no-repeat;
+  background-size: 100% 450px;
+  height: 450px;
+  padding: 10px;
+}
+
+.Title {
+  text-align: center;
+}

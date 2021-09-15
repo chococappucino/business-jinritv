@@ -2,16 +2,20 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Banner from '../components/Banner/Banner';
 import Intro from '../components/Intro/Intro';
 import Achievement from '../components/Achievement/Achievement';
-import CustomCarousel from '../components/Carousel/CustomCarousel';
+import Carousel from '../components/Carousel/Carousel';
 import SocialMedia from '../components/SocialMedia/SocialMedia';
 import JoinCompany from '../components/JoinCompany/JoinCompany';
 import Footer from '../components/Footer/Footer';
-import { jinriIntro, imageCarouselList, textCarouselList } from '../store/data';
+import { jinriIntro } from '../store/data';
 
 const HomePage = () => {
   return (
     <>
-      <Container fluid className="p-0 m-0">
+      <Container
+        fluid
+        className="p-0 m-0"
+        style={{ backgroundColor: 'rgb(216, 225, 232)' }}
+      >
         <Row>
           <Col>
             <Banner />
@@ -27,21 +31,14 @@ const HomePage = () => {
             <Achievement />
           </Col>
         </Row>
-        <Row className="p-5 mt-3" style={{ backgroundColor: '#F2A7D0' }}>
-          <h1 className="text-center">What People Say</h1>
-          <CustomCarousel items={textCarouselList} type="Text" />
-        </Row>
-        <Row className="d-flex justify-content-center mt-3">
-          <div className="w-50">
-            <h1 className="text-center">Main Contents</h1>
-            <CustomCarousel items={imageCarouselList} type="Image" />
-          </div>
+        <Row className="justify-content-center">
+          <Carousel />
         </Row>
         <Row>
-          <Col>
+          <Col className="p-0">
             <SocialMedia />
           </Col>
-          <Col>
+          <Col className="p-0">
             <JoinCompany />
           </Col>
         </Row>

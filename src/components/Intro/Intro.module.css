@@ -1,8 +1,26 @@
+.Intro {
+  margin-top: 40px;
+  background-color: rgb(216, 225, 232);
+}
+
+.ImageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .ImageBg {
+  display: block;
   padding: 10px;
   margin: 0px;
+  background-color: white;
   box-shadow: 0 0 5px rgb(0 0 0 / 10%);
   text-align: center;
+}
+
+.Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Title {

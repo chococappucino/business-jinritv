@@ -1,17 +1,27 @@
+.CarouselSpan {
+  display: flex;
+  justify-content: center;
+}
+
+.CarouselImage {
+  width: 80%;
+  height: 500px;
+}
+
 .Quote {
+  display: inline-block;
+  width: 80%;
   font-size: 51px;
   line-height: 1.2em;
-  text-align: center;
+  color: black;
 }
 
-.Name {
+.Name,
+.Title {
   font-weight: bold;
+  color: black;
 }
 
-.TextAlignCenter {
-  text-align: center;
-}
-
-.TextCarousel {
-  height: 500px;
+.Location {
+  color: black;
 }

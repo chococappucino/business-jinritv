@@ -1,0 +1,14 @@
+.JoinCompany {
+  background-color: rgb(162, 205, 242);
+  height: 450px;
+  padding: 10px;
+}
+
+.Title {
+  text-align: center;
+}
+
+.SignUpImage {
+  width: 424px;
+  height: 236px;
+}

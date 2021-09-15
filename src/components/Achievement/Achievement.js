@@ -1,14 +1,19 @@
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import AchievementItem from './AchievementItem';
+import classes from './Achievement.module.css';
+
+import { twitchLink } from '../../store/data';
 
 const Achievement = () => {
+  const buttonClickedHandler = () => {
+    window.open(twitchLink);
+  };
+
   return (
-    <Container className="mt-3">
+    <Container fluid className={classes.Achievement}>
       <Row>
         <Col>
-          <h1 className="text-center font-weight-bold">
-            What we have achieved
-          </h1>
+          <h1 className={classes.Title}>What we have achieved</h1>
         </Col>
       </Row>
       <Row>
@@ -30,13 +35,17 @@ const Achievement = () => {
           <AchievementItem
             value="1.8K+"
             valueColor="#d4edee"
-            description="Views on Twitch Clip"
+            description="Views on Twitch Clips"
           />
         </Col>
       </Row>
       <Row>
         <Col className="text-center">
-          <Button variant="outline-dark" className="rounded-pill">
+          <Button
+            variant="warning"
+            className="rounded-pill"
+            onClick={buttonClickedHandler}
+          >
             Follow JinriTV
           </Button>
         </Col>

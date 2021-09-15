@@ -2,27 +2,30 @@
   background-image: url('../../assets/images/banner.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 800px;
   background-position: center;
 }
 
 .TextPosition {
   position: relative;
-  left: 100px;
+  left: 170px;
   top: 150px;
   width: 600px;
 }
 
 .TitleText {
   color: white;
+  font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold,
+    sans-serif;
   font-size: 90px;
   font-weight: bold;
-  text-shadow: 3px 3px gainsboro;
+  text-shadow: rgb(0 0 0 / 50%) -1px -1px 0px, rgb(0 0 0 / 50%) -1px 1px 0px,
+    rgb(0 0 0 / 50%) 1px 1px 0px, rgb(0 0 0 / 50%) 1px -1px 0px;
 }
 
 .DescriptionText {
-  color: white;
+  color: rgb(29, 30, 33);
+  font-family: play, sans-serif;
   font-size: 24px;
   font-weight: bold;
-  text-shadow: 1px 1px gainsboro;
 }

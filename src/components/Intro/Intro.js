@@ -3,12 +3,12 @@ import classes from './Intro.module.css';
 
 const Intro = props => {
   return (
-    <Container className="mt-3">
-      <Row>
+    <Container className={classes.Intro}>
+      <Row className={classes.ImageWrapper}>
         <Col>
           <img src={props.data.image} alt="" className={classes.ImageBg}></img>
         </Col>
-        <Col className="d-flex flex-column justify-content-center">
+        <Col className={classes.Text}>
           <Row>
             <Col className={classes.Title}>{props.data.title}</Col>
           </Row>

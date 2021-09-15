@@ -1,0 +1,12 @@
+.Achievement {
+  background-color: rgb(29, 30, 33);
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.Title {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+}
