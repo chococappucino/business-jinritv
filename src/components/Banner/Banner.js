@@ -13,7 +13,7 @@ const Banner = () => {
       <div className={classes.TextPosition}>
         <h1 className={classes.TitleText}>Knowledge is Fully Gained</h1>
         <p className={classes.DescriptionText}>
-          Here you are hired as an unpaid intern in JinriCo
+          Here you are hired as an unpaid intern
         </p>
         <Button
           className="rounded-pill p-2"
