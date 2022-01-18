@@ -33,8 +33,12 @@
   text-shadow: rgb(0 0 0 / 50%) -1px -1px 0px, rgb(0 0 0 / 50%) -1px 1px 0px, rgb(0 0 0 / 50%) 1px 1px 0px, rgb(0 0 0 / 50%) 1px -1px 0px;
 }
 
-.BannerButton {
-  color: #1D1E21;
+.JinritvBtn {
+  color: #1D1E21 !important;
   font-family: Quicksand, sans-serif;
-  border-color:#FCD1CC;
+  border-color:#FCD1CC !important;
+  background: #FCD1CC !important;
+  padding: 15px !important;
+  font-weight: bolder !important;
+  font-size: 18px !important;
 }

@@ -15,13 +15,10 @@ const Banner = () => {
         Here you are hired as an unpaid intern in JinriCo
         </p>
         <Button
-          className="rounded-pill p-2"
-          variant="outline-dark"
+          className={`rounded-pill ${classes.JinritvBtn}`}
           onClick={buttonClickedHandler}
         >
-          <div className={classes.BannerButton}>
             Go watch JinriTV
-          </div>
         </Button>
       </div>
     </div>
