@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 .Banner {
-  background-image: url('../../assets/images/banner.png');
+  background-image: url('../../assets/images/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
@@ -10,22 +12,29 @@
   position: relative;
   left: 170px;
   top: 150px;
-  width: 600px;
+  width: 940px;
 }
 
 .TitleText {
-  color: white;
-  font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold,
-    sans-serif;
+  color: #FCD1CC;
+  font-family: Quicksand, sans-serif;
   font-size: 90px;
-  font-weight: bold;
-  text-shadow: rgb(0 0 0 / 50%) -1px -1px 0px, rgb(0 0 0 / 50%) -1px 1px 0px,
-    rgb(0 0 0 / 50%) 1px 1px 0px, rgb(0 0 0 / 50%) 1px -1px 0px;
+  font-weight: 900;
+  text-shadow: #ffffff 3px 3px 0px, rgb(0 0 0 / 20%) 6px 6px 0px;
+  letter-spacing: 0.05em;
+  line-height: normal;
 }
 
 .DescriptionText {
-  color: rgb(29, 30, 33);
-  font-family: play, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-family: Quicksand, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: rgb(0 0 0 / 50%) -1px -1px 0px, rgb(0 0 0 / 50%) -1px 1px 0px, rgb(0 0 0 / 50%) 1px 1px 0px, rgb(0 0 0 / 50%) 1px -1px 0px;
+}
+
+.BannerButton {
+  color: #1D1E21;
+  font-family: Quicksand, sans-serif;
+  border-color:#FCD1CC;
 }
