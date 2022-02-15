@@ -14,14 +14,14 @@ const Achievement = () => {
       <Row>
         <Col>
         <div className={classes.SubBanner}>
-          <h1 className={classes.Title}>What we have achieved</h1>
+          <h1 className={classes.Title}>What We have Achieved</h1>
         </div>
         </Col>
       </Row>
       <Row>
         <Col>
           <AchievementItem
-            value="9K+"
+            value="10K+"
             valueColor="#ffeae8"
             description="Followers on Twitch"
           />
@@ -38,18 +38,8 @@ const Achievement = () => {
             value="1.8K+"
             valueColor="#d4edee"
             description="Views on Twitch Clips"
+            font-family="Quicksand, sans-serif"
           />
-        </Col>
-      </Row>
-      <Row>
-        <Col className="text-center">
-          <Button
-            variant="warning"
-            className="rounded-pill"
-            onClick={buttonClickedHandler}
-          >
-            Follow JinriTV
-          </Button>
         </Col>
       </Row>
     </Container>

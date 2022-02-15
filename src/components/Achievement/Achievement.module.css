@@ -5,17 +5,19 @@
 }
 
 .SubBanner {
-  background-image: url('../../assets/images/sub-banner.jpg');
-  height: 176px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),  url('../../assets/images/sub-banner.jpg');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  height: 176px;   
   
 }
 
 .Title {
   color: white;
   text-align: center;
-  font-weight: bold;
-  margin-top: 40px;
+  font-weight: bolder;
+  font-size: 69px;
+  padding: 30px;
+  text-shadow: 4px 4px #2e2a2a;
+  font-family: Quicksand, sans-serif;
 }
