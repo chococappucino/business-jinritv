@@ -4,6 +4,15 @@
   padding-bottom: 40px;
 }
 
+.SubBanner {
+  background-image: url('../../assets/images/sub-banner.jpg');
+  height: 176px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
 .Title {
   color: white;
   text-align: center;

@@ -1,10 +1,12 @@
 .Intro {
   background-color: #323232;
+  margin-top: 40px;
 }
 
 .ImageWrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .ImageBg {
@@ -24,20 +26,31 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
+  font-family: Quicksand, sans-serif;
+  font-size: 20px;
 }
 
 .Title {
-  font-size: 51px;
+  font-size: 60px;
   font-weight: bold;
   line-height: normal;
+  color: #FCD1CC;
+  font-family: Quicksand, sans-serif;
 }
 
 .Subtitle {
-  font-size: 19px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 1.4em;
+  color: white;
+  font-family: Quicksand, sans-serif;
 }
 
 .Description {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: Quicksand, sans-serif;
 }

@@ -14,7 +14,7 @@ const HomePage = () => {
       <Container
         fluid
         className="p-0 m-0"
-        style={{ backgroundColor: 'rgb(216, 225, 232)' }}
+        style={{ backgroundColor: 'rgb(50 50 50)' }}
       >
         <Row>
           <Col>

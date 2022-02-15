@@ -13,7 +13,9 @@ const Achievement = () => {
     <Container fluid className={classes.Achievement}>
       <Row>
         <Col>
+        <div className={classes.SubBanner}>
           <h1 className={classes.Title}>What we have achieved</h1>
+        </div>
         </Col>
       </Row>
       <Row>
