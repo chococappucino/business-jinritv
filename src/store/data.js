@@ -5,7 +5,7 @@ import Chart3 from '../assets/images/chart3.png';
 import Chart4 from '../assets/images/chart4.png';
 
 const jinriIntro = {
-  title: "Hi, I'm JinriTV",
+  title: "Who am I?",
   subtitle: 'Twitch Streamer and Entrepreneur with inspiring community',
   image: JinriTV,
   description:
@@ -15,7 +15,7 @@ const jinriIntro = {
 const carouselList = [
   {
     name: 'Bendelmonte',
-    location: 'NY',
+    location: 'New York City',
     quote:
       'We are a community bustling with different ideas and dreams to make Jinri Co into a recognizable name on twitch and the world.',
     title: 'Angel Investor Intern',
@@ -30,14 +30,14 @@ const carouselList = [
   },
   {
     name: 'MarktheBoss_',
-    location: 'NYC',
+    location: 'New York City',
     quote: 'Best place to learn about anything and everything.',
     title: 'Entrepreneur',
     image: Chart3
   },
   {
     name: 'Minz',
-    location: 'NYC',
+    location: 'New York City',
     quote:
       'An unconventional place to grow and learn about a variety of topics with like-minded peers in a new and entertaining way.',
     title: 'Designer / Streamer',

@@ -2,10 +2,13 @@
 
 .Banner {
   background-image: url('../../assets/images/banner.jpg');
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.55), transparent ), url('../../assets/images/banner.jpg');
+
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
   background-position: center;
+  
 }
 
 .TextPosition {
@@ -20,9 +23,10 @@
   font-family: Quicksand, sans-serif;
   font-size: 90px;
   font-weight: 900;
-  text-shadow: #ffffff 3px 3px 0px, rgb(0 0 0 / 20%) 6px 6px 0px;
+  text-shadow: #ffffff 3px 3px 3px, rgb(19, 19, 19) 6px 6px 0px;
   letter-spacing: 0.05em;
   line-height: normal;
+  
 }
 
 .DescriptionText {
