@@ -1,11 +1,10 @@
 # JinriTV business website
 
-A React.js website to showcase Jinri Co. products at
-[https://business-jinritv.herokuapp.com/](https://business-jinritv.herokuapp.com/)
+A React.js website to showcase Jinri Co. products at [http://jinri.co](http://jinri.co)
 
 # Getting Started
 
-1. Install latest Node.js from [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
+1. Install latest Node.js (preferably LTS version: 16.17.0) from [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
 2. Verify Node.js installation by checking command line using `node -v`. It should display the node version installed.
 3. Install Visual Studio Code from [https://code.visualstudio.com/download](https://code.visualstudio.com/download).
 4. Clone the project from Github to your local PC.

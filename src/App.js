@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
@@ -8,13 +8,13 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navigation />
-      <Switch>
-        <Route path="/" component={HomePage} exact />
-        <Route path="/products" component={WorkInProgressPage} />
-        <Route path="/partners" component={WorkInProgressPage} />
-        <Route path="/contact-us" component={WorkInProgressPage} />
-        <Route component={NotFoundPage} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<HomePage />} exact />
+        <Route path="/products" element={<WorkInProgressPage />} />
+        <Route path="/partners" element={<WorkInProgressPage />} />
+        <Route path="/contact-us" element={<WorkInProgressPage />} />
+        <Route element={<NotFoundPage />} />
+      </Routes>
     </BrowserRouter>
   );
 };
