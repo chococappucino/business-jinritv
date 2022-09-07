@@ -18,6 +18,14 @@ const SocialMedia = () => {
           <YoutubeSubButton channelId="UC37gvZkOKFzPaUNlK1sB7pg" />
         </Col>
       </Row>
+      <Row className="justify-content-center mt-3">
+        <Col md={{ span: 4, offset: 1 }}>
+          <YoutubeSubButton channelId="UCjo--O60H3pFIqd4Msi9IXw" />
+        </Col>
+        <Col md={{ span: 4, offset: 1 }}>
+          <YoutubeSubButton channelId="UCPuz9xFPlsDzZ84XCshq8ow" />
+        </Col>
+      </Row>
     </Container>
   );
 };
