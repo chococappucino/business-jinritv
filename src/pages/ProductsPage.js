@@ -1,6 +1,8 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import Products from '../components/Products/Products';
-
+import classes from './ProductsPage.module.css';
+import Product from '../components/Product/Product';
+import Footer from '../components/Footer/Footer';
+import { productList } from '../store/data';
 
 const ProductsPage = () => {
   return (
@@ -12,10 +14,25 @@ const ProductsPage = () => {
       >
         <Row>
           <Col>
-            <Products />
+            <h1 className={classes.Title}>PRODUCTS</h1>
           </Col>
         </Row>
+        {productList.map(product => {
+          return (
+            <Row className="p-5">
+              <Col>
+                <Product
+                  name={product.name}
+                  desc={product.desc}
+                  image={product.image}
+                  url={product.url}
+                />
+              </Col>
+            </Row>
+          );
+        })}
       </Container>
+      <Footer />
     </>
   );
 };
