@@ -3,9 +3,10 @@ import Chart1 from '../assets/images/chart1.png';
 import Chart2 from '../assets/images/chart2.png';
 import Chart3 from '../assets/images/chart3.png';
 import Chart4 from '../assets/images/chart4.png';
+import Twiri from '../assets/images/mascot.png';
 
 const jinriIntro = {
-  title: "Who am I?",
+  title: 'Who am I?',
   subtitle: 'Twitch Streamer and Entrepreneur with inspiring community',
   image: JinriTV,
   description:
@@ -45,7 +46,28 @@ const carouselList = [
   }
 ];
 
+const productList = [
+  {
+    name: 'Twiri',
+    desc: "This is a webpage that matches viewers/streamers to a streamer to watch or collab with based on the question for your preference. The questions will be regarding the characteristics and nature of the streamer and the stream.\nThis was Jinri's first product with more than 20+ viewers working on it simultaneously.",
+    image: Twiri,
+    url: 'https://www.twiri.net'
+  },
+  {
+    name: 'RNG Station',
+    desc: "This is a random generating app that picks a random subway station to travel to. Currently, it is only based in Korea, but with lot's of support, we plan on moving this to other countries that has subway stations.\nI wanted to tour around Korea in a unique way, so one of my EU intern (YMF292) decided to create a rough sketch that randomly picks the subway. Later on, other intern (Seyther) helped out with the frontend so that I could use it in my YT videos",
+    image: Twiri,
+    url: ''
+  },
+  {
+    name: 'IRL Guest command generator',
+    desc: "Creates the guest command that could be copied and pased for those who don't have mods.\nEver since boss decided to not have mods in her channel, it was a pain in the a** to change the guest command every time... (though, wonder why viewers would randomly come to the channel asking who they are...) so because it was annoying, intern N********* created a scuffed version of this and will be updated and prettified by other interns :)",
+    image: Twiri,
+    url: ''
+  }
+];
+
 const twitchLink = 'https://www.twitch.tv/jinritv';
 const discordLink = 'https://www.discord.gg/jinritv';
 
-export { jinriIntro, carouselList, twitchLink, discordLink };
+export { jinriIntro, carouselList, productList, twitchLink, discordLink };
