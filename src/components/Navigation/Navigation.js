@@ -15,8 +15,8 @@ const Navigation = () => {
             <Nav.Link as={Link} to="/products">
               Products
             </Nav.Link>
-            <Nav.Link as={Link} to="/partners">
-              Partners
+            <Nav.Link as={Link} to="/companyculture">
+            Company Culture
             </Nav.Link>
             <Nav.Link as={Link} to="/contact-us">
               Contact Us

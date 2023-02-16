@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
 import WorkInProgressPage from './pages/WorkInProgressPage';
 import ProductsPage from './pages/ProductsPage';
+import CompanyCulturePage from './pages/CompanyCulturePage';
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} exact />
         <Route path="/products" element={<ProductsPage />} />
-        <Route path="/partners" element={<WorkInProgressPage />} />
+        <Route path="/companyculture" element={<CompanyCulturePage />} />
         <Route path="/contact-us" element={<WorkInProgressPage />} />
         <Route element={<NotFoundPage />} />
       </Routes>
