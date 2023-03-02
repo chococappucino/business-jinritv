@@ -63,7 +63,7 @@ const productList = [
     name: 'IRL Guest command generator',
     desc: "Creates the guest command that could be copied and pased for those who don't have mods.\nEver since boss decided to not have mods in her channel, it was a pain in the a** to change the guest command every time... (though, wonder why viewers would randomly come to the channel asking who they are...) so because it was annoying, intern N********* created a scuffed version of this and will be updated and prettified by other interns :)",
     image: Twiri,
-    url: ''
+    url: 'IRLGenerator.html?sora629=Sora&hachubby=Hachu&yummy_2=Yummy&wowowww0=%EC%9A%B0%EA%B8%B0%EC%9E%89&mintcandy25=%EC%84%B8%ED%98%84&jaemi_fun=%EC%9E%AC%EB%AF%B8&okheeji=Heeji&url_youarel=%EC%9C%A0%EC%95%84%EB%A0%90&bubbly_live=Bubbly&lessa_tv=Lessa '
   }
 ];
 
