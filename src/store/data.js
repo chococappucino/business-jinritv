@@ -4,6 +4,8 @@ import Chart2 from '../assets/images/chart2.png';
 import Chart3 from '../assets/images/chart3.png';
 import Chart4 from '../assets/images/chart4.png';
 import Twiri from '../assets/images/mascot.png';
+import Guest from '../assets/images/guestcommandgenerator.png';
+import Jin2go from '../assets/images/Jin2go.png';
 
 const jinriIntro = {
   title: 'Who am I?',
@@ -54,15 +56,15 @@ const productList = [
     url: 'https://www.twiri.net'
   },
   {
-    name: 'RNG Station',
+    name: 'JIN2Go',
     desc: "This is a random generating app that picks a random subway station to travel to. Currently, it is only based in Korea, but with lot's of support, we plan on moving this to other countries that has subway stations.\nI wanted to tour around Korea in a unique way, so one of my EU intern (YMF292) decided to create a rough sketch that randomly picks the subway. Later on, other intern (Seyther) helped out with the frontend so that I could use it in my YT videos",
-    image: Twiri,
+    image: Jin2go,
     url: ''
   },
   {
     name: 'IRL Guest command generator',
     desc: "Creates the guest command that could be copied and pased for those who don't have mods.\nEver since boss decided to not have mods in her channel, it was a pain in the a** to change the guest command every time... (though, wonder why viewers would randomly come to the channel asking who they are...) so because it was annoying, intern N********* created a scuffed version of this and will be updated and prettified by other interns :)",
-    image: Twiri,
+    image: Guest,
     url: 'IRLGenerator.html?sora629=Sora&hachubby=Hachu&yummy_2=Yummy&wowowww0=%EC%9A%B0%EA%B8%B0%EC%9E%89&mintcandy25=%EC%84%B8%ED%98%84&jaemi_fun=%EC%9E%AC%EB%AF%B8&okheeji=Heeji&url_youarel=%EC%9C%A0%EC%95%84%EB%A0%90&bubbly_live=Bubbly&lessa_tv=Lessa '
   }
 ];
